@@ -4,5 +4,21 @@
 	<!-- Following accessibility best practices, the for attribute links the input elements and the label elements together using. -->
 
 	<!-- Specifying the type attribute of a form element is important for the browser to know what kind of data it should expect. If the type is not specified, the browser will default to text -->
+
+
+	<!-- The first input element with a type of submit is automatically set to submit its nearest parent form element -->
+
+	<!-- Certain type attribute values come with built-in form validation. For example, type="email" requires that the value be a valid email address.
+
+Add custom validation to the password input element, by adding a minlength attribute with a value of 8. Doing so prevents inputs of less than 8 characters being submitted. -->
+
+<!-- With type="password" you can use the pattern attribute to define a regular expression that the password must match to be considered valid.
+
+Add a pattern attribute to the password input element to require the input match: [a-z0-5]{8,} -->
+
+<!-- You only want one radio input to be selectable at a time. However, the form does not know the radio inputs are related.
+
+To relate the radio inputs, give them the same name attribute with a value of account-type. Now, it is not possible to select both radio inputs at the same time. -->
+
 </form>
 
